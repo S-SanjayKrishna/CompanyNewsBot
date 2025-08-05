@@ -39,18 +39,16 @@ An AI-powered chatbot that gives you real-time summaries of the **latest news ab
 Run the following to install all dependencies:
 
 bash
-pip install -q --upgrade \
+pip install -q  \
   gradio \
   googlesearch-python \
   beautifulsoup4 \
   requests \
-  llama-cpp-python \
   transformers \
-  rapidfuzz \
   spacy[transformers]
 
 python -m spacy download en_core_web_trf
-
+Restart the session if run in Google Collab.
 
 ---
 
